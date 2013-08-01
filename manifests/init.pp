@@ -16,7 +16,7 @@ class python_pip {
   	ensure => present,
   }
 
-  package { 'python_pip':
+  package { 'python-pip':
     ensure  => present,
     require => Package[$packages],
   }
