@@ -1,0 +1,7 @@
+name          'ivanlei-python_pip'
+version       '1.0.0'
+summary       'Puppet module for installing python-pip'
+description   'Puppet module for installing python-pip'
+source        'https://github.com/ivanlei/puppet-python_pip.git'
+project_page  'https://github.com/ivanlei/puppet-python_pip'
+license       'http://unlicense.org/'

@@ -1,0 +1,1 @@
+class { 'python_pip': }

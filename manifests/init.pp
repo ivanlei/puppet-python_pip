@@ -1,11 +1,8 @@
-# Class: python_pip
+# == Class: python_pip
 #
-# This class installs python_pip
+# Installs python_pip
 #
-# Actions:
-#   - Install the python_pip package
-#
-# Sample Usage:
+# === Example
 #  class { 'python_pip': }
 #
 class python_pip {
@@ -13,7 +10,7 @@ class python_pip {
   $packages = ['build-essential', "linux-headers-${kernelrelease}", 'python-dev']
 
   package { $packages:
-  	ensure => present,
+    ensure => present,
   }
 
   package { 'python-pip':
